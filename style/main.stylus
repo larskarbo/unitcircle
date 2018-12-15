@@ -1,0 +1,19 @@
+@import '../node_modules/pappi/src/pappi'
+
+body {
+    font-size: 30px
+}
+
+#one {
+    width: 500px
+    height: 500px
+}
+.katex-html {
+    display: none
+    }
+#two {
+}
+
+.canvas-column {
+    min-width 500px
+}
