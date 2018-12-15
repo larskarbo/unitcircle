@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "prod": "parcel build index.html",
+    "ghpages": "git subtree push --prefix dist origin gh-pages"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
     "@babel/plugin-proposal-class-properties": "^7.2.1",
@@ -21,6 +26,7 @@
     "@babel/plugin-proposal-throw-expressions": "^7.2.0",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "cssnano": "^4.1.7",
     "stylus": "^0.54.5"
   },
   "dependencies": {
