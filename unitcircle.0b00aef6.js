@@ -83,4 +83,4 @@ var t,e=arguments[3];!function(e,r){"object"==typeof exports&&"object"==typeof m
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=c(require("konva")),r=c(require("./src/Circumference")),i=c(require("./src/UnitCircle")),n=c(require("./src/helpers")),u=c(require("eases")),t=c(require("katex"));function c(e){return e&&e.__esModule?e:{default:e}}new i.default({id:"one",interactive:!0,width:500,height:500,showCircle:!0,onAngleChange:function(e){}});
 },{"konva":"Z1B7","./src/Circumference":"YpN9","./src/UnitCircle":"A4Yn","./src/helpers":"s49y","eases":"9uiP","katex":"40jp"}]},{},["Focm"], null)
-//# sourceMappingURL=/unitcircle.0b00aef6.map
+//# sourceMappingURL=unitcircle.0b00aef6.map
